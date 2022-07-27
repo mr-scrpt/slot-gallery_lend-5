@@ -1,0 +1,65 @@
+.icon {
+  min-width: 1em;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  text-align: center;
+  background-position: 50%;
+  background-repeat: no-repeat;
+}
+.icon:empty:after {
+  visibility: hidden;
+  content: "\00A0";
+}
+
+.icon > img,
+.icon > svg {
+  margin: -5.15em 0 -5em;
+  vertical-align: middle;
+}
+.icon.icon_home {
+  background-image: url("../img/icons/icon_home.png");
+  width: 43px;
+  height: 43px;
+}
+
+.icon.icon_about {
+  background-image: url("../img/icons/icon_about.png");
+  width: 43px;
+  height: 43px;
+}
+
+.icon.icon_contact {
+  background-image: url("../img/icons/icon_contact.png");
+  width: 43px;
+  height: 43px;
+}
+
+.icon.icon_policy {
+  background-image: url("../img/icons/icon_policy.png");
+  width: 43px;
+  height: 43px;
+}
+.icon.icon_burger {
+  mask-image: url("../img/icons/icon_burger.svg");
+  mask-repeat: no-repeat;
+  background: $color_white;
+  width: 21px;
+  height: 11px;
+}
+
+.icon.icon_close {
+  mask-image: url("../img/icons/icon_close.svg");
+  mask-repeat: no-repeat;
+  //background-color: red;
+  background: rgba($color_white, 100%);
+  width: 14px;
+  height: 14px;
+}
+/* .icon.icon_burger {
+	mask-image: url("../img/icon/icon_burger.svg");
+	background-color: red;
+	width: 31px;
+	height: 21px;
+}
+ */

@@ -1,0 +1,67 @@
+.banner {
+  &__inner {
+  }
+
+  &__box {
+    background-image: url("../img/bg/bg-banner-box.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 688px;
+    height: 681px;
+    position: relative;
+  }
+
+  &__top {
+    position: absolute;
+    top: 30px;
+    left: calc(50%);
+    width: 333px;
+    height: 168px;
+    transform: translateX(-50%);
+    font-size: 40px;
+    line-height: 40px;
+    font-weight: 900;
+    color: $color_green;
+    background-image: url("../img/bg/bg-banner-top.svg");
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+  }
+  &__top-text {
+    text-align: center;
+  }
+
+  &__middle {
+    position: absolute;
+    top: 50%;
+    left: calc(50%);
+    transform: translate(-50%, -50%);
+    font-size: 90px;
+    line-height: 100px;
+    font-weight: 900;
+    color: $color_yellow;
+  }
+
+  &__bottom {
+    position: absolute;
+    bottom: 0;
+    left: calc(50%);
+    transform: translate(-50%, 35%);
+    background-image: url("../img/bg/bg-button-bonus.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 605px;
+    height: 440px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__button {
+    font-size: 40px;
+    line-height: 40px;
+    font-weight: 900;
+    color: $color_green;
+    padding-bottom: 60px;
+  }
+}

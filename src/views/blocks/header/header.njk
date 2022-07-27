@@ -1,0 +1,20 @@
+<header class="header page__header">
+
+	<div class="header__inner layout__full">
+
+		{% set inject = {
+			"parentClass": 'header__logo'
+		} %}
+
+		{% include "blocks/logo/logo.njk" %}
+
+
+		{% set inject = {
+			"parentClass": 'header__banner'
+		} %}
+		
+		{% include "blocks/banner/banner.njk" %}
+
+	</div>
+
+</header>

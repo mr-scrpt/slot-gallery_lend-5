@@ -1,0 +1,15 @@
+.page {
+  &_theme {
+    font: 14px / 2.14 "Open Sans", sans-serif;
+    color: $color_white;
+    background: $color_blur;
+  }
+  &_overflow {
+    overflow: hidden;
+  }
+  &__header {
+  }
+
+  &__footer {
+  }
+}

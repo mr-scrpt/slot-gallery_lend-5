@@ -1,0 +1,52 @@
+{
+	"games_list": [
+    {
+      "name": "Mega Wheel",
+      "img": "1.jpg"
+    },
+    {
+      "name": "Mega Roulette",
+      "img": "2.jpg"
+    },
+    {
+      "name": "Cash Patrol",
+      "img": "3.jpg"
+    },
+    {
+      "name": "Book of Vikings",
+      "img": "4.jpg"
+    },
+    {
+      "name": "Fresh Fruits",
+      "img": "5.jpg"
+    },
+    {
+      "name": "European Roulette",
+      "img": "6.jpg"
+    },
+    {
+      "name": "Blackjack",
+      "img": "7.jpg"
+    },
+    {
+      "name": "Baccarat",
+      "img": "8.jpg"
+    },
+    {
+      "name": "Coins of Fortune",
+      "img": "9.jpg"
+    },
+    {
+      "name": "Classic Blackjack",
+      "img": "10.jpg"
+    },
+    {
+      "name": "Texas Holdem Poker",
+      "img": "11.jpg"
+    },
+    {
+      "name": "Big Money Vegas",
+      "img": "12.jpg"
+    }
+	]
+}
